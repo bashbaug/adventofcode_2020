@@ -6,7 +6,7 @@
 #include <vector>
 
 struct Tile {
-    Tile::Tile(int num) : Used(false), Num(num), Dim(0), Matches(0) {}
+    Tile(int num) : Used(false), Num(num), Dim(0), Matches(0) {}
 
     const char& get(int row, int col) const
     {
